@@ -108,15 +108,15 @@ def user_page(x):
 
 
 if __name__ == '__main__':
-    print" \
-                 --------------Cache visualisation--------------- \n \
-                <--------------               ------------------> \n  \
-                Least recently used    ||     Frequently used \n  \
-                 ------------------------------------------------\n  \
-     POP<---    |   rear    |           |           |  front    | <--- APPEND\n  \
-                -------------------------------------------------\n  \
-                test pages 1 2 3 4 1 3 5 3 7 5 6 values mapped are squares.\n \
-         "
+    print""" 
+                 --------------Cache visualisation--------------- 
+                <--------------               ------------------>
+                Least recently used    ||     Frequently used 
+                 ------------------------------------------------
+     POP<---    |   rear    |           |           |  front    | <--- APPEND
+                -------------------------------------------------
+                test pages 1 2 3 4 1 3 5 3 7 5 6 values mapped are squares.
+         """
     for x in '12341353756':
         print "current Page-{0:02d} :".format(int(x)),
         # iterate over ordered dictionary entries to print them in
